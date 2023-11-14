@@ -41,3 +41,6 @@ echo $PATH # - variable with all CAPS = System or Enviroment variable
 # - shell knows where find update, it is stored in PATH variable
 # - /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/sbin:/sbin:/bin:/snap/bin
 
+# Adding a directory in your $PATH variable 
+export PATH=/usr/local/bin:$PATH # - new version of PATH is going to include /usr/local/bin and all 
+                                 # variables, which are refferenced through $PATH variable 
