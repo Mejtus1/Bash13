@@ -67,4 +67,12 @@ then
 fi 
 # you dont want to get prompted for anything when scripting 
 # that is why you have to add -y at line 62 so it runs automatically when you call the script
-# 22:14
+
+# STANDARD INPUT 
+# new file myscript55.sh
+#!/bin/bash
+
+echo "Please enter your name:"
+read myname
+echo "Your name is: $myname" 
+
